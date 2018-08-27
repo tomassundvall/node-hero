@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  web:
+    image: node:8.11.3-slim
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/home/node/app
+    working_dir: /home/node/app
+    command: node index.js
