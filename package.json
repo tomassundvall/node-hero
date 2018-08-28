@@ -1,0 +1,24 @@
+{
+  "name": "node-hero",
+  "version": "1.0.0",
+  "description": "Tutorial to learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomassundvall/node-hero.git"
+  },
+  "keywords": [
+    "tutorial",
+    "node"
+  ],
+  "author": "Tomas Sundvall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomassundvall/node-hero/issues"
+  },
+  "homepage": "https://github.com/tomassundvall/node-hero#readme"
+}

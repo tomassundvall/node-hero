@@ -6,6 +6,6 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./src:/home/node/app
+      - ./:/home/node/app
     working_dir: /home/node/app
     command: node index.js
