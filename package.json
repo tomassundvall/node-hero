@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tomassundvall/node-hero/issues"
   },
-  "homepage": "https://github.com/tomassundvall/node-hero#readme"
+  "homepage": "https://github.com/tomassundvall/node-hero#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
