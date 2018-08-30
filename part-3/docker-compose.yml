@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  app:
+    image: node:8.11.3-slim
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    command: node index.js
+
+  # docker-compose run --rm cmd
+  cmd:
+    image: node:8.11.3-slim
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    stdin_open: true
+    tty: true
+    command: /bin/bash
