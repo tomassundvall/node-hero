@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+
+  app:
+    image: node:8.11.3-slim
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - 3000:3000
+    environment:
+      - DEBUG=express* # Adds debug output
+    command: npm start
+
+  cmd:
+    image: node:8.11.3-slim
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    command: /bin/bash

@@ -1,0 +1,20 @@
+{
+  "name": "node-hero-part-4",
+  "version": "1.0.0",
+  "description": "Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node-hero",
+    "tutorial"
+  ],
+  "author": "Tomas Sundvall",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
